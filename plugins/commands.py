@@ -28,8 +28,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/nasrani_update'),
-            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/bigmoviesworld')
+            InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/Devilservers'),
+            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/Devilservers')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -48,13 +48,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [                    
-            InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞', url='https://t.me/bigmoviesworld'),
-            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/NasraniChatGroup')
+            InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞', url='https://t.me/Devilservers'),
+            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/Devilservers')
         ], [
-            InlineKeyboardButton('𝐃𝐞𝐭𝐚𝐢𝐥𝐬', url='http://telegra.ph/Minnal-murali-03-06-12'),        
+            InlineKeyboardButton('𝐃𝐞𝐭𝐚𝐢𝐥𝐬', url=''),        
             InlineKeyboardButton('𝐇𝐞𝐥𝐩', callback_data='help')          
         ], [
-            InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/nasrani_update')
+            InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/Devilservers')
         ], [
             InlineKeyboardButton('𝐈𝐧𝐥𝐢𝐧𝐞', switch_inline_query_current_chat=''),
             InlineKeyboardButton('𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬', callback_data=f"setting")
@@ -99,13 +99,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [                    
-            InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞', url='https://t.me/bigmoviesworld'),
-            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/NasraniChatGroup')
+            InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞', url='hhttps://t.me/Devilservers'),
+            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/Devilservers')
         ], [
-            InlineKeyboardButton('𝐃𝐞𝐭𝐚𝐢𝐥𝐬', url='http://telegra.ph/Minnal-murali-03-06-12'),        
+            InlineKeyboardButton('𝐃𝐞𝐭𝐚𝐢𝐥𝐬', url=''),        
             InlineKeyboardButton('𝐇𝐞𝐥𝐩', callback_data='help')          
         ], [
-            InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/nasrani_update')
+            InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url='hhttps://t.me/Devilservers')
         ], [
             InlineKeyboardButton('𝐈𝐧𝐥𝐢𝐧𝐞', switch_inline_query_current_chat=''),
             InlineKeyboardButton('𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬', callback_data=f"setting")
@@ -164,7 +164,7 @@ async def start(client, message):
                                          ],
                                          [
                                              InlineKeyboardButton('🧩𝐆𝐨𝐨𝐠𝐥𝐞🧩', url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}"),
-                                             InlineKeyboardButton('☘𝐈𝐦𝐝𝐛☘', url="https://t.me/+YCA-JWZDNsJkNmI1")
+                                             InlineKeyboardButton('☘𝐈𝐦𝐝𝐛☘', url="")
                                          ]                            
                                      ]
                                  )
@@ -184,7 +184,7 @@ async def start(client, message):
                                          ],
                                          [
                                              InlineKeyboardButton('🧩𝐆𝐨𝐨𝐠𝐥𝐞🧩', url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}"),
-                                             InlineKeyboardButton('☘𝐈𝐦𝐝𝐛☘', url="https://t.me/+YCA-JWZDNsJkNmI1")
+                                             InlineKeyboardButton('☘𝐈𝐦𝐝𝐛☘', url="")
                                          ]                            
                                      ]
                                  )
@@ -359,7 +359,7 @@ async def start(client, message):
                                          ],
                                          [
                                              InlineKeyboardButton('🧩𝐆𝐨𝐨𝐠𝐥𝐞🧩', url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}"),
-                                             InlineKeyboardButton('☘𝐈𝐦𝐝𝐛☘', url="https://t.me/+YCA-JWZDNsJkNmI1")
+                                             InlineKeyboardButton('☘𝐈𝐦𝐝𝐛☘', url="")
                                          ]                            
                                      ]
                                  )
