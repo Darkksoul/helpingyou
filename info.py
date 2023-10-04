@@ -21,14 +21,8 @@ BOT_TOKEN = environ['BOT_TOKEN']
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/ac524f66eec140ec69db5.jpg https://telegra.ph/file/bd94ba94b8bd34793cc81.jpg https://telegra.ph/file/0fd19a01130a1dec30ee2.jpg https://telegra.ph/file/9e71045e92e89ecf0b1cd.jpg https://telegra.ph/file/f739b561482df0be0a644.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
-NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/732a9f89be5a9cd63289b.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/f7f2a532fe4b990044507.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
-SP = (environ.get('SP', 'https://telegra.ph/file/db018384d5d139f3844ed.jpg https://telegra.ph/file/30c736c93b5ad5c328141.jpg https://telegra.ph/file/f1565e213ec1a45a27362.jpg https://telegra.ph/file/0c53da8c1598c63e50a6e.jpg https://telegra.ph/file/360d78cf3209429ca8e66.jpg')).split()
-
-
+PICS = (environ.get('PICS', 'https://telegra.ph/file/1a2b6e76af675065491a7.jpg https://telegra.ph/file/f7a0e18e59b404d69ee3d.jpg https://telegra.ph/file/8e3de48f3db033b21f66a.jpg https://telegra.ph/file/216c233c62bfeb241b359.jpg https://te.legra.ph/file/b700bbbf7329b04f3673a.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/1a2b6e76af675065491a7.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -55,8 +49,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Custom Chats
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001616308548'))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/TGxMULTIBOTDB')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ''))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
 
 # This is required for the plugins involving the file system.
 TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
@@ -69,21 +63,21 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shorturllink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '973a78409424fc98d61399e41a1aa90ba0199e10')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-# SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://TinyFy.in')
-# SHORTLINK_API = environ.get('SHORTLINK_API', '5f301bd41650cf7f64b9e7434fef3b7c973918df')
+# SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+# SHORTLINK_API = environ.get('SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "False")), False)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/NasraniSeries')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/bigmoviesworld')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Devilservers')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Devilservers')
 MSG_ALRT = environ.get('MSG_ALRT', 'Piracy Is Crime')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'NasraniSeries')
@@ -109,12 +103,12 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 #redict
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/nasrani_update")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+7oxSIxY4X0c2ZGVl")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/Devilservers")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/Devilservers")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 
-LANGUAGES = ["MALAYALAM", "TAMIL", "ENGLISH", "HINDI", "TELUGU", "KANNADA" "DUBBED"]
+LANGUAGES = ["All"]
 
 # Delete Time
 IMDB_DLT_TIME = int(environ.get('IMDB_DLT_TIME', 600))
